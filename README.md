@@ -1,6 +1,6 @@
 # Playwright Python Automation
 
-![Tests](https://github.com/knsupritha-kn/playwright-python-automation/actions/workflows/tests.yml/badge.svg)
+[![Tests](https://github.com/knsupritha-kn/playwright-python-automation/actions/workflows/tests.yml/badge.svg)](https://github.com/knsupritha-kn/playwright-python-automation/actions)
 
 UI and API test automation framework for the [Sauce Demo](https://www.saucedemo.com) e-commerce site, built with Playwright, PyTest, and the Page Object Model.
 
