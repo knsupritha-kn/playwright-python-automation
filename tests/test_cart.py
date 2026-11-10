@@ -16,7 +16,8 @@ def test_add_one_item(logged_in_page):
     ["sauce-labs-backpack"],
     ["sauce-labs-backpack", "sauce-labs-bike-light"],
     ["sauce-labs-backpack", "sauce-labs-bike-light", "sauce-labs-bolt-t-shirt"],
-])
+], ids=["1_item", "2_items", "3_items"])
+
 def test_add_multiple_items(logged_in_page, items):
     inventory = InventoryPage(logged_in_page)
     for item in items:
